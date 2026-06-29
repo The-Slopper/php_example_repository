@@ -1,6 +1,6 @@
 {
   "name": "example/php-example-repository",
-  "description": "Componente de backend da plataforma com API, persistencia e regras de negocio.",
+  "description": "Repository pattern example: data-access abstraction isolating persistence from the domain.",
   "type": "project",
   "license": "MIT",
   "keywords": ["reference", "example", "platform"],
